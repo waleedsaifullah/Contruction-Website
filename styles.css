@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Rubik', sans-serif;
+    background: #000;
+    color: #fff;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffef00;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 5px; 
+    font-size: 1rem;
+    cursor: pointer;
+    border-color: #ffef00;
+    border-width: 2px;
+    background: none;
+    color: #fff;
+}
+
+.btn:active {
+    transform: translate(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0, .2);
+    border-bottom: none;
+}
+
+
+
+/* Header */
+.header {
+    height: 100vh;
+    background: url(../img/header.jpg) no-repeat center center / contain;
+}
+
+.header nav {
+    display: flex;
+    padding: 20px 40px;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav h1 {
+    color: #ffef00;
+    text-transform: uppercase;
+}
+
+.header nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header nav ul li {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.header nav ul li a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.header .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
